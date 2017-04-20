@@ -1,0 +1,151 @@
+html
+{
+    font-size: 10px;
+}
+
+body
+{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+ul,
+li
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.main-title
+{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: .915;
+
+    margin-bottom: 8px;
+
+    text-align: center;
+
+    color: #000;
+}
+
+.main-title--red
+{
+    color: #fc6744;
+}
+
+.subtitle
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    margin-bottom: 109px;
+
+    text-align: center;
+
+    color: rgba(65, 65, 65, .7);
+}
+
+.cart
+{
+    position: relative;
+    min-height: 263px;
+    margin-bottom: 80px;
+    padding: 55px 15px;
+
+    list-style: none;
+
+    text-align: center;
+    vertical-align: top;
+
+    color: rgba(255, 255, 255, .8);
+}
+
+
+.cart--bug
+{
+    background-color: rgb(192, 73, 248);
+}
+
+.cart--cogs
+{
+    background-color: rgb(129, 126, 255);
+}
+
+.cart--camera-retro
+{
+    background-color: rgb(247, 71, 112);
+}
+
+
+.cart--magnet
+{
+    background-color: rgb(78, 178, 247);
+}
+
+.fa
+{
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: .16;
+}
+.fa-camera-retro
+{
+    font-size: 4.64rem;
+    font-weight: 400;
+    line-height: .172;
+
+    transform: rotate(-18.453deg);
+    text-align: center;
+}
+.cart__btn
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.563;
+
+    position: absolute;
+    
+    bottom: -27px;
+    left: 50%;
+
+    min-width: 200px;
+    padding: 21px 41px;
+    padding-left: 76px;
+
+    transform: translateX(-50%);
+    text-align: center;
+
+    color: rgba(0, 0, 0, .8);
+    border-radius: 27px;
+    background-color: #fff;
+    box-shadow: 0 0 14px 0 rgba(20, 20, 21, .05);
+}
+.cart__btn::before,
+.cart__btn::after
+{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+
+    content: '';
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.cart__btn::before
+{
+    width: 16px;
+    height: 2px;
+}
+
+.cart__btn::after
+{
+    width: 2px;
+    height: 16px;
+}
